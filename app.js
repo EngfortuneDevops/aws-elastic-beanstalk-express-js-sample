@@ -6,3 +6,6 @@ app.get('/', (req, res) => res.send('Laura Happy!'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
+git add app.js
+git commit -m "full pipeline test"
+git push
